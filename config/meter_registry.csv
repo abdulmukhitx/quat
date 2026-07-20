@@ -1,0 +1,16 @@
+meter_id,meter_name,role,university_owned,university_pays,university_controls,include_in_load_model,notes
+1,Ячейка №1 (Бот.сад),outgoing_load,true,true,true,true,
+3,Ячейка №3 (Мед.корпус-1),outgoing_load,true,true,true,false,Verify metering direction and near-zero active import before modeling
+11,Ячейка №11 (Мед.корпус-2),outgoing_load,true,true,true,true,
+7,Ячейка №7 (Население Л-4А),outgoing_load,true,true,true,true,Ownership and payment confirmed by user
+1A,Ячейка №1А (Мкр.Отрар-1),outgoing_load,true,true,true,true,Ownership and payment confirmed by user
+19,Ячейка №19 (Мкр. Отрар-2),outgoing_load,true,true,true,true,Ownership and payment confirmed by user
+17,Ячейка №17 (Поликлиника ТГП),outgoing_load,true,true,true,true,Ownership and payment confirmed by user
+12,Ячейка №12 (Ректорат),outgoing_load,true,true,true,true,
+18,Ячейка №18 (Резерв),reserve,true,true,true,false,Zero consumption in current export
+5,Ячейка №5 (Резерв),reserve,true,true,true,false,Zero consumption in current export
+13,Ячейка №13 (Резерв),reserve,true,true,true,false,Zero consumption in current export
+6,Ячейка №6 (Rixos-1),outgoing_load,true,true,true,true,Ownership and payment confirmed by user
+16,Ячейка №16 (Rixos-2),outgoing_load,true,true,true,true,Ownership and payment confirmed by user
+4,Ячейка №4 (Ввод-Т1),master_input,true,true,true,false,Use for energy balance rather than independent savings totals
+15,Ячейка №15 (Ввод-Т2),master_input,true,true,true,false,Use for energy balance rather than independent savings totals

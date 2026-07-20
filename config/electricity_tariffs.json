@@ -1,0 +1,85 @@
+{
+  "currency": "KZT",
+  "unit": "kWh",
+  "region": "Turkestan region and Shymkent",
+  "supplier_context": "Ontustik Zharyk Tranzit / Energopotok retail electricity notices",
+  "selected_consumer_group": 2,
+  "consumer_groups": {
+    "2": "Legal entities using electricity for non-household needs",
+    "3": "Legal entities financed from city, regional, or republican state budgets"
+  },
+  "classification": {
+    "status": "provisional",
+    "reason": "The Kazakhstan public procurement registry states that the university is not in the state-customer registry. The electricity contract or invoice remains authoritative.",
+    "source": "https://www.goszakup.gov.kz/ru/registry/show_supplier/24417"
+  },
+  "periods": [
+    {
+      "start": "2025-07-01",
+      "end_exclusive": "2025-08-01",
+      "vat_rate": 0.12,
+      "group_2": {
+        "rate_without_vat_kzt_per_kwh": null,
+        "rate_with_vat_kzt_per_kwh": 37.0,
+        "status": "published gross"
+      },
+      "group_3": {
+        "rate_without_vat_kzt_per_kwh": null,
+        "rate_with_vat_kzt_per_kwh": 37.0,
+        "status": "published gross; category split not shown"
+      },
+      "source": "https://energopotok.kz/?p=3528"
+    },
+    {
+      "start": "2025-08-01",
+      "end_exclusive": "2025-11-01",
+      "vat_rate": 0.12,
+      "group_2": {
+        "rate_without_vat_kzt_per_kwh": 39.96,
+        "rate_with_vat_kzt_per_kwh": 44.7552,
+        "status": "published"
+      },
+      "group_3": {
+        "rate_without_vat_kzt_per_kwh": 66.15,
+        "rate_with_vat_kzt_per_kwh": 74.088,
+        "status": "published"
+      },
+      "source": "https://energopotok.kz/wp-content/uploads/2025/07/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%9E%D0%96%D0%A2-%D0%BF%D0%BE-%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E-%D1%80%D1%83%D1%81.pdf"
+    },
+    {
+      "start": "2025-11-01",
+      "end_exclusive": "2026-01-01",
+      "vat_rate": 0.12,
+      "group_2": {
+        "rate_without_vat_kzt_per_kwh": 41.06,
+        "rate_with_vat_kzt_per_kwh": 45.9872,
+        "status": "published"
+      },
+      "group_3": {
+        "rate_without_vat_kzt_per_kwh": 73.74,
+        "rate_with_vat_kzt_per_kwh": 82.5888,
+        "status": "published"
+      },
+      "source": "https://energopotok.kz/wp-content/uploads/2025/10/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%9E%D0%96%D0%A2-%D0%BF%D0%BE-%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E-09.10.2025.pdf"
+    },
+    {
+      "start": "2026-01-01",
+      "end_exclusive": "2026-07-01",
+      "vat_rate": 0.16,
+      "group_2": {
+        "rate_without_vat_kzt_per_kwh": 41.06,
+        "rate_with_vat_kzt_per_kwh": 47.6296,
+        "status": "derived from published net rate and statutory VAT; verify against invoice"
+      },
+      "group_3": {
+        "rate_without_vat_kzt_per_kwh": 73.74,
+        "rate_with_vat_kzt_per_kwh": 85.5384,
+        "status": "derived from published net rate and statutory VAT; verify against invoice"
+      },
+      "sources": [
+        "https://energopotok.kz/wp-content/uploads/2025/10/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%9E%D0%96%D0%A2-%D0%BF%D0%BE-%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E-09.10.2025.pdf",
+        "https://www.gov.kz/memleket/entities/minfin/press/news/details/1119650?lang=ru"
+      ]
+    }
+  ]
+}

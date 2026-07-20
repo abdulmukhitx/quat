@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Исходные данные кампуса не должны попадать в Git.
+data/raw/*
+!data/raw/.gitkeep
+
+# Производные артефакты можно воспроизвести повторным запуском.
+data/processed/*
+!data/processed/.gitkeep
+reports/*
+!reports/.gitkeep
+
+.env
+*.log
+.artifact-inspect/

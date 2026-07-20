@@ -1,0 +1,11 @@
+{
+  "timezone": "Asia/Qyzylorda",
+  "value_kind": "unknown",
+  "columns": {
+    "timestamp": null,
+    "meter_id": null,
+    "active_energy_kwh": null,
+    "reactive_energy_kvarh": null,
+    "power_factor": null
+  }
+}

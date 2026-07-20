@@ -1,0 +1,20 @@
+{
+  "timezone": "Asia/Qyzylorda",
+  "value_kind": "interval_energy",
+  "columns": {
+    "timestamp": null,
+    "meter_id": null,
+    "active_energy_kwh": null,
+    "reactive_energy_kvarh": null,
+    "power_factor": null
+  },
+  "notes": {
+    "value_kind_options": [
+      "interval_energy",
+      "cumulative_energy",
+      "average_power"
+    ],
+    "instruction": "Замените null точными именами столбцов после первого аудита. Не переименовывайте исходные файлы и столбцы."
+  }
+}
+
